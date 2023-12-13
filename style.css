@@ -244,7 +244,7 @@ main section:last-child {
     
 }
 .footer-logo, .instagram-logo {
-    max-width: 100px; /* Ajuste o tamanho do logo conforme necessário */
+    max-width: 100px; 
     margin-right: 20px; 
     margin-left: 50px;
 }
@@ -288,7 +288,7 @@ main section:last-child {
     }
 
     .main-footer a {
-        margin: 40px 0; /* Adicione espaçamento vertical entre os itens */
+        margin: 40px 0; 
         display: block;
     }
 }
