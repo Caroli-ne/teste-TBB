@@ -1,3 +1,10 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+}
+
+
 body {
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -36,7 +43,7 @@ body {
     background-color: #389cd6;
     padding: 10px 0;
     text-align: center;
-    box-shadow:inset 0px 0 30px -5px rgba(0, 0, 0, 0.2),inset -5px 0 8px -5px rgba(0, 0, 0, 0.2);
+    box-shadow:inset 0px 0 15px -5px rgba(0, 0, 0, 0.2),inset -5px 0 8px -5px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -161,6 +168,86 @@ body {
     margin: 0 auto; 
     max-width: 100%; 
 }
+.conteiner-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    margin: 20px;
+    background-color:#ffffff;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card p {
+    flex: 1;
+    text-align: center;
+    color: #7b7070;
+    font-size: 20px;
+    max-width: 100%;
+    padding: 10px;
+}
+.card img { 
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+
+main section:last-child {
+    text-align: center; 
+}
+
+.btn {
+    background-color: #389cd6;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 100px;
+}
+
+.main-footer {
+    background-color: #389cd6;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.main-footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    
+}
+.footer-logo, .instagram-logo {
+    max-width: 100px; /* Ajuste o tamanho do logo conforme necessário */
+    margin-right: 20px; 
+    margin-left: 50px;
+}
 
 @media (max-width:785px) {
     .main-header {
@@ -192,5 +279,16 @@ body {
         gap: 10px;
         transition: 0.3s;
     }
+    
+    .main-footer .footer-content  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .main-footer a {
+        margin: 40px 0; /* Adicione espaçamento vertical entre os itens */
+        display: block;
+    }
 }
