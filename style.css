@@ -109,6 +109,7 @@ body {
     background-color: #389cd6;
     padding: 20px;
     color: #ffffff;
+    z-index: 4;
 }
 
 .mobile-nav-menu li {
