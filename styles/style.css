@@ -11,6 +11,8 @@ body {
     background-color:#ffffff;
 }
 
+/*header*/
+
 .top-line {
     background-color: #ffffff;
     padding: 0px 20px;
@@ -68,6 +70,10 @@ body {
     padding: 10px;
 }
 
+.arrow {
+    transform: rotate(90deg);
+    display: inline-block;
+}
 
 .dropdown {
     display: none;
@@ -117,6 +123,8 @@ body {
     list-style: none;
     
 }
+
+/*textos*/
 
 .banner-container img {
     display: block;
@@ -172,6 +180,8 @@ body {
     margin: 0 auto; 
     max-width: 100%; 
 }
+/*sessão dedicada aos cards */
+
 .conteiner-cards{
     display: flex;
     justify-content: center;
@@ -179,7 +189,7 @@ body {
     
 }
 
-.card {
+.card  {
     margin: 20px;
     background-color:#ffffff;
     width: 300px;
@@ -193,7 +203,7 @@ body {
     margin-top: 100px;
 }
 
-.card p {
+.card  p {
     flex: 1;
     text-align: center;
     color: #7b7070;
@@ -202,6 +212,32 @@ body {
     padding: 10px;
     
 }
+
+.card2  {
+    margin: 20px;
+    background-color:#ffffff;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    box-shadow:0px 5px 15px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card2  p {
+    flex: 1;
+    text-align: center;
+    color: #7b7070;
+    font-size: 20px;
+    max-width: 100%;
+    padding: 10px;
+    
+}
+
+
 
 .card-azul {
     border-bottom: 50px solid #389cd6; 
@@ -274,10 +310,20 @@ body {
     margin: 0 auto;
 }
 
+.card2 img { 
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 auto;
+}
+
+
 
 main section:last-child {
     text-align: center; 
 }
+
+
 
 .btn {
     background-color: #389cd6;
@@ -290,6 +336,8 @@ main section:last-child {
     width: 300px;
     margin-bottom: 100px;
 }
+
+/*footer*/
 
 .main-footer {
     background-color: #389cd6;
@@ -320,10 +368,8 @@ main section:last-child {
     margin-left: 50px;
 }
 
-.arrow {
-    transform: rotate(90deg);
-    display: inline-block;
-}
+/*responsividade*/
+
 @media (max-width:785px) {
     .main-header {
         display: none;
