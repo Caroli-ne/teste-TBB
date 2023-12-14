@@ -202,16 +202,65 @@ body {
 
 .card-azul {
     border-bottom: 50px solid #389cd6; 
+    position: relative;
 }
 
 .card-verde {
     border-bottom: 50px solid #309D5F; 
+    position: relative;
 }
 
 .card-rosa {
     border-bottom: 50px solid #EE6381; 
+    position: relative;
 }
 
+.card-verde::after {
+    content: 'active';
+    position: absolute;
+    bottom: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    background-color: #309D5F; 
+    padding: 10px;
+    border-radius: 0 0 10px 10px; 
+    width: auto;
+}
+.card-azul::after {
+    content: 'wellness';
+    position: absolute;
+    bottom: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    background-color:#389cd6; 
+    padding: 10px;
+    border-radius: 0 0 10px 10px; 
+    width: auto;
+}
+
+.card-rosa::after {
+    content: 'agecare';
+    position: absolute;
+    bottom: -50px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    background-color:#EE6381; 
+    padding: 10px;
+    border-radius: 0 0 10px 10px; 
+    width: auto;
+}
 
 
 .card img { 
