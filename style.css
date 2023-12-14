@@ -200,6 +200,18 @@ body {
     
 }
 
+.card-azul {
+    border-bottom: 50px solid #389cd6; 
+}
+
+.card-verde {
+    border-bottom: 50px solid #309D5F; 
+}
+
+.card-rosa {
+    border-bottom: 50px solid #EE6381; 
+}
+
 
 
 .card img { 
